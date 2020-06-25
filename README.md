@@ -1,4 +1,4 @@
-## Spring Boot + Rest
+## Spring Boot + Rest + JIB
 - It will run in all cases and there will not be 403 error in response.
 
 ### Usage
