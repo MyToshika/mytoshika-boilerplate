@@ -1,10 +1,9 @@
-## Spring Boot + Rest + JIB
+## Spring Boot + Rest + JIB(Push docker image to repository)
 - It will run in all cases and there will not be 403 error in response.
 
 ### Usage
 
-- Run the application and go on http://localhost:8082/
-- Use the TestController url to invoke controllers methods.
+- Run the application and go on http://localhost:8081/info
 
 ### Build and run
 
@@ -22,6 +21,9 @@ Open the `application.properties` file and set your own configurations for serve
 Go on the project's root folder, then type:
 
     $ mvn spring-boot:run
+    
+## To Push the docker image to docerhub run below command and update pom.xml for user name and password
+	$ mvn compile jib:build
 
 #### From Eclipse (Spring Tool Suite)
 

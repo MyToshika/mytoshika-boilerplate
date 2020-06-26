@@ -6,7 +6,7 @@ pipeline {
 	stages {
 	    stage ('Build') {
 	    	sh 'chmod +x ./mvnw'
-	    	sh './mvnw compile jib:build'
+	    	sh 'mvnw compile jib:build'
 	    }
 	}
 }
