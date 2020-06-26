@@ -46,7 +46,7 @@
 						<image>amazoncorretto:11</image>
 					</from>
 					<to>
-						<image>pushpendrasingh0009/${name}:latest</image>
+						<image>pushpendrasingh0009/${name}:${version}</image>
 						<auth>
 							<username>${env.DHUB_USER}</username>
 							<password>${env.DHUB_PASS}</password>
