@@ -20,7 +20,7 @@ Open the `application.properties` file and set your own configurations for serve
 
 Go on the project's root folder, then type:
 
-    $ mvn spring-boot:run
+    $ mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dconfig.server.url=config-host -Dregistery.server.url=registry-host"
     
 ## To Push the docker image to docerhub run below command and update pom.xml for user name and password
 	$ mvn compile jib:build
