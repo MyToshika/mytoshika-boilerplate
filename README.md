@@ -24,6 +24,9 @@ Go on the project's root folder, then type:
     
 ## To Push the docker image to docerhub run below command and update pom.xml for user name and password
 	$ mvn compile jib:build
+	
+## Run image in docker container
+- docker run -p 8081:8081 -e config.server.url="config-host-url" -e registery.server.url="registry-host-url" pushpendrasingh0009/boilerplate:0.0.1
 
 #### From Eclipse (Spring Tool Suite)
 
