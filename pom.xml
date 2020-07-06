@@ -52,6 +52,15 @@
 							<password>${env.DHUB_PASS}</password>
 						</auth>
 					</to>
+					
+					<!-- //https://apple.jfrog.io/
+					<to>
+						<image>apple-docker.jfrog.io/test-repo/${project.name}</image>
+						<auth>
+							<username>admin</username>
+							<password>password</password>
+						</auth>
+					</to> -->
 					<container>
 						<environment>
 							<LANG>C.UTF-8</LANG>
